@@ -1,0 +1,16 @@
+.about_wrapper{
+    border: 1px solid black;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 12;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3fr 2fr;
+}
+
+.logo_about{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}

@@ -1,0 +1,156 @@
+@font-face {
+    font-family: UncutSans;
+    src: url("../assets/Fonts/uncut-sans/Uncut-Sans-Medium.otf");
+}
+
+@font-face {
+    font-family: norwester;
+    src: url("../assets/Fonts/norwester/norwester-v1.2/norwester.otf");
+}
+
+/* Search bar Styling */
+.search input[type=text]{
+    width:20em;
+    height:2.5em;
+}
+     
+.search{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: 0.5em;
+    justify-self:center;
+    width: 100%;
+}
+     
+.search button{
+    background-color: #252525;
+    color: #f2f2f2;
+    padding: 5px 10px ;
+    height: 2.7em;
+    /* margin-right: 16px; */
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.navbar{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 4em;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display:grid;
+    grid-template-columns: repeat(8 , 1fr);
+}
+
+.navbartitle{
+    font-size: larger;
+    margin-top: 1em;
+}
+
+.brandimage img{
+    height: 4em;
+}
+
+.sidebar{
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.sidebar ul{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    list-style-type:none;
+}
+
+.main_content{
+    border: 1px solid black;
+    border-left: 0px;
+    grid-column-start: 3;
+    grid-column-end: 13;
+    grid-row-start: 2;
+
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    row-gap: 0.5em;
+    column-gap: .4em;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: auto repeat(3 , 1fr);
+}
+
+.cardImg{
+    height: inherit;
+    background-color: #f2f2f2;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cardImg img{
+    height: 100%;
+    width: 100%;
+}
+
+.cardBrand{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: uncutsans;
+}
+
+.cardPrice{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-family: uncutsans;
+    text-align: right;
+}
+
+.cardName{
+    font-family: uncutsans;
+    font-size: large;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.buynow{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: inline-flex;
+}
+
+.whishlist{
+    height: 1.5em;
+    margin-left: 2%;
+}
+.buynow button{
+    font-family: uncutsans;
+    font-size: 18px;
+    width: 89%;
+    color: white;
+    background:#252525;    
+}
+
+.loadMore{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #b9b9b9;
+    justify-self: center;
+    text-indent: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* #card13, #card14, #card15, #card16, #card17, #card18, #card19, #card20, #card21, #card22, #card23, #card24{
+    display: none;
+} */
