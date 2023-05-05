@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css_files/main_wrapper.css">
+    <link rel="stylesheet" href="../css_files/contactUs.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+</head>
+<body>
+    <div class="main_wrapper">
+        <div class="header headingFont">
+    
+            <div class="icon">
+                <img src="../assets/DESIGN/SB.png" alt="Shoe Box" >
+            </div>
+            
+            <div class="title">
+                Shoe Box
+            </div>
+
+            <div>
+                Search Bar
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./aboutUs.html">About-Us</a></li>
+                    <li><a href="./contactUs.html">Contact-Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="content box">
+            <div class="image"><img src="../assets/DESIGN/Contact.jpg" alt="Reseller"></div>
+
+            <div class="form">
+
+                <form action="./contact.php" method="POST">
+                    <div class="formgroup">
+                        <label class="formElement" for="firstname">First Name :</label>
+                        <input class="formElement" type="text" name="firstName">  
+                    </div>
+                    
+                    <div class="formgroup">
+                        <label class="formElement" for="Lastname">Last Name :</label> 
+                        <input class="formElement" type="text" name="lastName"> 
+                    </div>
+                    
+                    <div class="formgroup">
+                        <label class="formElement" for="email">Email Id :</label>
+                        <input class="formElement" type="email" name="email"> 
+                    </div>
+                 
+                    <div class="formgroup">
+                        <label class="formElement" for="phoneNumber">Phone No :</label>
+                        <input class="formElement" type="tel" name="contact"> 
+                    </div>
+                    <div class="submit">
+                        <input type="submit" name="submit" value="submit"> 
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="icon">
+                <img src="../assets/DESIGN/SB_Black.png" alt="Shoe Box">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
